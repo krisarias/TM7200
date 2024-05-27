@@ -24,6 +24,11 @@ body {
     flex: 1;
     overflow: auto;
 }
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 
 .box-1 {
     background-color: #db5a3a;
@@ -45,6 +50,8 @@ body {
 .box-4 {
     background-color: #e7ff0f;
     min-height: 50vh; 
+    position: sticky;
+
    
 }
 
@@ -55,8 +62,10 @@ body {
     <div class="box box-1"></div>
     <div class="container">
         <div class="box box-2"></div>
-        <div class="box box-3"></div> 
+        <div class="content-container">
+            <div class="box box-3"></div>
+            <div class="box box-4"></div>
+        </div>
     </div>
-    <div class="box box-4"></div>
 </body>
 
