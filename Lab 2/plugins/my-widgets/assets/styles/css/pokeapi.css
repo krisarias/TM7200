@@ -1,0 +1,10 @@
+
+.pokeapi-container {
+
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: red;
+    border-color: blue;
+}
