@@ -70,6 +70,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
             'theme_location'=>'main-menu',
             'container' => false,
             'menu_class' => 'my-navbar',
+			
         )); 
     ?>
 </nav>
