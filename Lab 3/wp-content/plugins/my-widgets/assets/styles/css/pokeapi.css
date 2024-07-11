@@ -1,0 +1,17 @@
+.pokeapi-container {
+    display: grid;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: #F3D1D4;
+    border-color: #A65353;
+    border-width: 10px;
+    border-style: solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 20px;
+}

@@ -1,0 +1,165 @@
+/* General styles */
+.relative-container.elementor-widget {
+    position: relative;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.background-element.elementor-widget {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background-element.elementor-widget img {
+    height: auto; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.content-container.elementor-widget {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar styles */
+ul.my-navbar {
+    width: 90%;
+    display: flex;
+    margin: 2rem 5%;
+    justify-content: flex-end;
+    background-color: #E48A92;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.my-navbar {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.my-navbar li {
+    list-style: none;
+}
+
+.my-navbar li a {
+    color: white;
+}
+
+/* Main menu styles */
+.my-main-menu {
+    width: 90%;
+    margin: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.my-main-menu .site-title {
+    display: inline-flex;
+    color: white;
+}
+
+/* Logo styles */
+.custom-logo {
+    width: 6rem;
+    padding-top: 50% !important;
+}
+
+/* Header styles */
+h2 {
+    text-align: center;
+}
+
+/* Card container styles */
+.card-container {
+    margin-top: 10%;
+    display: flex; /* Display cards in a row */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center cards on the page */
+}
+
+/* Project cards styles */
+.card {
+    margin: 10px;
+    background-color: #f8e8e9;
+    border: 0.5px solid #E48A92;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 230px;
+}
+
+.card h2 {
+    margin-top: 5%;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none; /* Remove underline from links */
+    color: #0073aa; /* Change link color */
+}
+
+.card img {
+    max-width: 100%; /* Ensure image does not exceed card width */
+    max-height: 70%;
+    height: auto; /* Maintain image aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+/* Blog post and details styles */
+.ast-separate-container #primary {
+    padding: 4em 0;
+    margin: 200 !important;
+    border: 0;
+}
+
+.entry-meta, .entry-meta * {
+    color: #ac8689 !important;
+}
+
+.ast-blog-single-element.ast-taxonomy-container a {
+    color: #E48A92 !important;
+}
+
+.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a) {
+    color: #E48A92 !important;
+}
+
+.elementor-button-text {
+    color: white !important;
+}
+
+.image-container.--cover .image-container__image {
+    border-radius: 20px !important;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 40em) {
+    .my-main-menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+}
