@@ -23,6 +23,3 @@
 - **Plugin Custom**
 - **Múltiples Custom Post Types**
 
----
-
-Feel free to adjust the format as needed!
