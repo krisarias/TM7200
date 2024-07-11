@@ -1,17 +1,28 @@
-# Repositorio para entregas del curso TM7200.
-Junio-Julio 2024
-Tutoriales seguidos:
-https://www.youtube.com/playlist?list=PLcpgFjmGKyjY0hSMlCW3NUtIHxy2oa00r
+# Repositorio para entregas del curso TM7200
 
-Por:Krisly Arias Hidalgo
+## Junio-Julio 2024
 
-Labs:
-Creación de una pagina web personal en wordpress.
-Requisitos:
-Landing Page 
-Blog 
-Currículum 
-Proyectos 
-Tema Hijo 
-Plugin Custom 
-Múltiples Custom Post Types
+### Tutoriales Seguidos
+[Tutoriales en YouTube](https://www.youtube.com/playlist?list=PLcpgFjmGKyjY0hSMlCW3NUtIHxy2oa00r)
+
+### Por
+**Krisly Arias Hidalgo**
+
+---
+
+## Labs
+
+### Creación de una Página Web Personal en WordPress
+
+#### Requisitos:
+- **Landing Page**
+- **Blog**
+- **Currículum**
+- **Proyectos**
+- **Tema Hijo**
+- **Plugin Custom**
+- **Múltiples Custom Post Types**
+
+---
+
+Feel free to adjust the format as needed!
